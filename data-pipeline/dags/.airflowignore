@@ -1,0 +1,12 @@
+# Ignore notebooks
+*.ipynb
+notebooks/
+
+# Ignore test files
+tests/
+
+# Ignore logs
+logs/
+
+# Ignore configs (optional)
+configs/
