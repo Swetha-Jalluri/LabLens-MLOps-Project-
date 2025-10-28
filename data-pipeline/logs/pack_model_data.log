@@ -1,0 +1,10 @@
+2025-10-28 09:36:11,689 - INFO - Repo root:      C:\lab-lens\data-pipeline
+2025-10-28 09:36:11,689 - INFO - Processed dir:  C:\lab-lens\data-pipeline\data\processed
+2025-10-28 09:36:11,690 - INFO - Output dir:     C:\lab-lens\data-pipeline\data\model
+2025-10-28 09:36:11,690 - INFO - Parquet:        False
+2025-10-28 09:36:11,719 - INFO - Loaded splits: train=(3486, 47) val=(765, 47) test=(749, 47)
+2025-10-28 09:36:11,989 - INFO - Loaded cleaned_text: (5000, 2)
+2025-10-28 09:36:12,903 - INFO - Saved model CSVs → C:\lab-lens\data-pipeline\data\model
+2025-10-28 09:36:12,906 - INFO - Wrote feature spec → C:\lab-lens\data-pipeline\logs\feature_spec.json
+2025-10-28 09:36:12,908 - INFO - Wrote scaler stats → C:\lab-lens\data-pipeline\logs\scaler_stats.json
+2025-10-28 09:36:12,909 - INFO - Pack complete.

@@ -1,0 +1,32 @@
+{
+  "shape": {
+    "rows": 5000,
+    "cols": 47
+  },
+  "presence": {
+    "missing_columns": []
+  },
+  "uniqueness": {
+    "duplicate_hadm_id": 0
+  },
+  "range_issues": {
+    "text_chars": 0,
+    "text_tokens": 0,
+    "sentences": 0,
+    "chars_per_token": 0,
+    "abnormal_lab_ratio": 0,
+    "diagnosis_unique_count": 0,
+    "comorbidity_score": 0
+  },
+  "ohe": {
+    "ohe_cols": 22,
+    "ohe_non_binary_count": -110022,
+    "ohe_nan_count": 0
+  },
+  "paths": {
+    "input": "C:\\lab-lens\\data-pipeline\\data\\processed\\mimic_features.csv",
+    "report": "C:\\lab-lens\\data-pipeline\\logs\\validation_report.json",
+    "issues": "C:\\lab-lens\\data-pipeline\\logs\\validation_issues.csv",
+    "log": "C:\\lab-lens\\data-pipeline\\logs\\validation.log"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "paths": {
+    "input": "C:\\lab-lens\\data-pipeline\\data\\processed\\mimic_features.csv",
+    "train": "C:\\lab-lens\\data-pipeline\\data\\processed\\train.csv",
+    "val": "C:\\lab-lens\\data-pipeline\\data\\processed\\val.csv",
+    "test": "C:\\lab-lens\\data-pipeline\\data\\processed\\test.csv",
+    "log": "C:\\lab-lens\\data-pipeline\\logs\\split.log"
+  },
+  "counts": {
+    "all_rows": 5000,
+    "all_subjects": 4784
+  },
+  "splits": {
+    "train": {
+      "rows": 3486,
+      "subjects": 3348,
+      "adm_ohe_means": {
+        "adm_ELECTIVE": 0.1443,
+        "adm_EMERGENCY": 0.7702,
+        "adm_NEWBORN": 0.0608,
+        "adm_URGENT": 0.0247
+      }
+    },
+    "val": {
+      "rows": 765,
+      "subjects": 717,
+      "adm_ohe_means": {
+        "adm_ELECTIVE": 0.1176,
+        "adm_EMERGENCY": 0.7974,
+        "adm_NEWBORN": 0.0614,
+        "adm_URGENT": 0.0235
+      }
+    },
+    "test": {
+      "rows": 749,
+      "subjects": 719,
+      "adm_ohe_means": {
+        "adm_ELECTIVE": 0.1268,
+        "adm_EMERGENCY": 0.7704,
+        "adm_NEWBORN": 0.0814,
+        "adm_URGENT": 0.0214
+      }
+    }
+  },
+  "ratios": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "soft_stratify": false
+}

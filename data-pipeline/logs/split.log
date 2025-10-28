@@ -1,0 +1,8 @@
+2025-10-28 09:25:54,826 - INFO - Repo root: C:\lab-lens\data-pipeline
+2025-10-28 09:25:54,827 - INFO - Input:     C:\lab-lens\data-pipeline\data\processed\mimic_features.csv
+2025-10-28 09:25:54,827 - INFO - Out dir:   C:\lab-lens\data-pipeline\data\processed
+2025-10-28 09:25:54,827 - INFO - Seed:      42
+2025-10-28 09:25:54,827 - INFO - Ratios:    train/val/test = (0.7, 0.15, 0.15)
+2025-10-28 09:25:54,855 - INFO - Unique subjects: 4784 | Rows: 5000
+2025-10-28 09:25:54,926 - INFO - Wrote split report → C:\lab-lens\data-pipeline\logs\split_report.json
+2025-10-28 09:25:54,928 - INFO - Done.
