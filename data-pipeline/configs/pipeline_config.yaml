@@ -1,0 +1,10 @@
+paths:
+  raw: "data/raw/mimic_discharge_with_demographics.csv"
+  cleaned: "data/processed/mimic_cleaned.csv"
+  features: "data/processed/mimic_features.csv"
+  splits_dir: "data/processed"
+  model_dir: "data/model"
+
+feature_engineering:
+  with_sections: true
+  top_k_ethnicities: 5

@@ -1,0 +1,10 @@
+gcp:
+  project_id: 'regal-bonito-455919-u3'
+
+bigquery:
+  dataset_notes: 'physionet-data.mimiciii_notes'
+  dataset_clinical: 'physionet-data.mimiciii_clinical'
+
+data_acquisition:
+  sample_limit: 5000
+  output_path: 'data/raw/mimic_discharge_with_demographics.csv'
